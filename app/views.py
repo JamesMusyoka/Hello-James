@@ -3,7 +3,10 @@ from app import app
 
 @app.route('/')
 def index():
+
     '''
     view root page function that returns the index page and its data
     '''
-    return render_template('index.html')
+
+    message = 'Hello World'
+    return render_template('index.html', message = message)
