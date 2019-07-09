@@ -4,7 +4,7 @@ from .models import movie
 
 Movie = movie.Movie
 
-api_key = app.config['MOVIE_API_KEY']
+api_key = app.config['85fc65cdd523a0ce60dc442d22ca91fb']
 
 base_url = app.config["MOVIE_API_BASE_URL"]
 
